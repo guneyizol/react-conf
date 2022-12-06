@@ -1,0 +1,23 @@
+{
+    "name": "react-conf",
+    "description": "a package to learn javascript development tools and react configuration",
+    "author": "Güney İzol <guneyizol@gmail.com>",
+    "version": "0.1.0",
+    "main": "src/script.js",
+    "type": "module",
+    "scripts": {
+        "start": "webpack && webpack serve"
+    },
+    "dependencies": {
+        "react": "*",
+        "react-dom": "*"
+    },
+    "devDependencies": {
+        "webpack": "*",
+        "webpack-cli": "*",
+        "html-webpack-plugin": "*",
+        "webpack-dev-server": "*",
+        "babel-loader": "*",
+        "@babel/preset-react": "*"
+    }
+}
